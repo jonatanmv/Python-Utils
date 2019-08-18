@@ -1,4 +1,4 @@
-# Configuration files in Python
+# Configuration files in Python(with configparser)
 
 Most applications need some configuration parameters. There is different ways to store and use configuration data in software. It is recommended to separate the code an logic modules from the configuration data. This way users will be able to modify or update configuration parameters with no need to modify the application. A simple way to store configuration info is a file with an easy structure that the user can manage. We can take advantage of the package "configparser" in python to read a config file. This is simple cheatsheet to give an example of use.
 
