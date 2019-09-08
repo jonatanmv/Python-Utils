@@ -41,3 +41,5 @@ except IOError:
 atexit.register(readline.write_history_file, histfile)
 del os, histfile, readline, rlcompleter
 ```
+## Enjoy !
+And don't hesitate to send me comments or ideas to improve it. Thanks !
