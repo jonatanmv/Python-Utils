@@ -29,7 +29,7 @@ port = port = 1239
 
 ### 3. Example of use for the python module "configparser"
 
-We use ```config = configparser.ConfigParser()``` or ```config = configparser.RawConfigParser()``` to read the config file. With the first method you will have to scape the "%" Characters as "%%".
+We use ```config = configparser.ConfigParser()``` or ```config = configparser.RawConfigParser()``` to read the config file. With ```ConfigParser()``` you will have to scape the "%" Characters as "%%". So if you are planning to for example use "%" character in your password parameter better use ```RawConfigParser()```.
 
 ```python
 import configparser
