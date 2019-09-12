@@ -29,7 +29,7 @@ port = port = 1239
 
 ### 3. Example of use for the python module "configparser"
 
-We use config = configparser.ConfigParser() or config = configparser.RawConfigParser() to read the config file. With the first method you will have to scape the "%" Characters as "%%".
+We use ```console config = configparser.ConfigParser()``` or ```console config = configparser.RawConfigParser() to read the config file. With the first method you will have to scape the "%" Characters as "%%".
 
 ```python
 import configparser
