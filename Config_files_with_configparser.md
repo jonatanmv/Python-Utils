@@ -32,7 +32,7 @@ port = port = 1239
 ```python
 import configparser
 
-congif_file = "config.ini"
+config_file = "config.ini"
 config = configparser.ConfigParser()
 config.read(config_file)
 
